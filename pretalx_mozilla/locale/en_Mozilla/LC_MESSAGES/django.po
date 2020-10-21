@@ -1045,7 +1045,7 @@ msgstr ""
 #: pretalx/cfp/templates/widgets/track-select-widget.html:9
 #: pretalx/cfp/templates/widgets/track-select-widget.html:22
 msgid "Track descriptions"
-msgstr "Session format descriptions"
+msgstr "Space descriptions"
 
 #: pretalx/cfp/templates/widgets/track-select-widget.html:33
 msgid "No description provided."
