@@ -6,6 +6,6 @@ from pretalx.common.signals import register_locales
 def register_locales(**kwargs):
     event = kwargs.pop("sender", None)
     if event:
-        if "pretalx_mozilla" not in getattr(event, "plugin_list") or []:
+        if "pretalx_mozilla" not in getattr(event, "plugin_list", None) or []:
             return []
     return ["en-mozilla"]
