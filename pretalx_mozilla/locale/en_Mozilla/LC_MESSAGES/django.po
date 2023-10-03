@@ -823,7 +823,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/submission/anonymise.html:43
 #: pretalx/orga/templates/orga/submission/content.html:165
 #: pretalx/orga/templates/orga/submission/review.html:202
-#: pretalx/orga/templates/orga/submit_row.html:11
+#: pretalx/orga/templates/orga/includes/pagination.html:11
 #: pretalx/orga/templates/orga/update.html:91
 msgid "Save"
 msgstr ""
@@ -5156,12 +5156,12 @@ msgstr[1] ""
 msgid "There are no organisers you can edit."
 msgstr ""
 
-#: pretalx/orga/templates/orga/pagination.html:14
+#: pretalx/orga/templates/orga/includes/pagination.html:14
 #, python-format
 msgid "Page %(page)s of %(of)s (%(count)s elements)"
 msgstr ""
 
-#: pretalx/orga/templates/orga/pagination.html:28
+#: pretalx/orga/templates/orga/includes/pagination.html:28
 #, python-format
 msgid "%(count)s element"
 msgid_plural "%(count)s elements"
