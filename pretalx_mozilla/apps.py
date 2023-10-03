@@ -11,6 +11,7 @@ class PluginApp(AppConfig):
         description = "Pretalx modifications for Mozilla events"
         visible = True
         version = "0.0.0"
+        category = "LANGUAGE"
 
     def ready(self):
         from . import signals  # NOQA
