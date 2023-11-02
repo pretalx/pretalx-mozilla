@@ -1,5 +1,7 @@
 from django.apps import AppConfig
 
+from pretalx_mozilla import __version__
+
 
 class PluginApp(AppConfig):
     name = "pretalx_mozilla"
@@ -10,7 +12,7 @@ class PluginApp(AppConfig):
         author = "Tobias Kunze"
         description = "Pretalx modifications for Mozilla events"
         visible = True
-        version = "0.0.0"
+        version = __version__
         category = "LANGUAGE"
 
     def ready(self):
