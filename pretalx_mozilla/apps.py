@@ -11,7 +11,7 @@ class PluginApp(AppConfig):
         name = "Mozilla"
         author = "Tobias Kunze"
         description = "Pretalx modifications for Mozilla events"
-        visible = True
+        visible = False
         version = __version__
         category = "LANGUAGE"
 
